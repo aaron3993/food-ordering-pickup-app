@@ -39,7 +39,7 @@ app.use(express.static("public"));
 
 
 // const completedOrderRoutes = require("./routes/completed_order");
-// const menuRoutes = require("./routes/menu");
+const menuRoutes = require("./routes/menu");
 // const orderRoutes = require("./routes/order");
 const usersRoutes = require("./routes/users");
 // const widgetsRoutes = require("./routes/widgets");
@@ -49,8 +49,8 @@ const usersRoutes = require("./routes/users");
 
 
 // app.use("/api/order/:id/completed", orderCompletedRoutes(dbHelpers));
+app.use("/api/menu", menuRoutes(dbHelpers));
 // app.use("/api/order/:id", orderRoutes(dbHelpers));
-// app.use("/api/menu", menuRoutes(dbHelpers));
 app.use("/api/users", usersRoutes(dbHelpers));
 // app.use("/api/widgets", widgetsRoutes(dbHelpers));
 
@@ -62,6 +62,16 @@ app.use("/api/users", usersRoutes(dbHelpers));
 // Separate them into separate routes files (see above).
 app.get("/", (req, res) => {
   res.render("index");
+});
+
+app.get("/menu", (req, res) => {
+  res.render("menu");
+});
+app.get("/order", (req, res) => {
+  res.render("order");
+});
+app.get("/completed_order", (req, res) => {
+  res.render("completed_order");
 });
 
 app.listen(PORT, () => {
