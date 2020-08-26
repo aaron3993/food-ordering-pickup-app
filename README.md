@@ -36,3 +36,21 @@ Below are some of the routes a user can visit.
 4. morgan
 5. cookieSession
 6. node-postgresql
+
+## Setup
+
+1. **Install dependencies*
+
+```sh
+npm install
+```
+
+2. **Setup database**
+   
+   Run the schema and seed files in the db folder.
+
+3. **Start the server**
+
+```sh
+npm start
+```
