@@ -54,3 +54,5 @@ npm install
 ```sh
 npm start
 ```
+
+4. **To access admin page, login as aaron@LHL.com with password as 'password'**
