@@ -39,7 +39,7 @@ Below are some of the routes a user can visit.
 
 ## Setup
 
-1. **Install dependencies*
+1. **Install dependencies**
 
 ```sh
 npm install
