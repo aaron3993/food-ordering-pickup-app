@@ -1,6 +1,6 @@
 ## Project Introduction
 
-The Project implements a Restaurant Ordering System supported by backend in NodeJS (Express Server and EJs templating) and frontend built & styled using SASS pre-processor, HTML5 & JQuery. Project uses POSTGRESQL for database needs. Realtime order updates are sent to both owner of the restaurant and the customer using Twilio SMS API whenever order is place, confirmed and ready for pickup.
+This imaginery restaurant allows a user to register or login to add items from a menu and place an order with them, and will receive an SMS when the order is confirmed, and another when it is ready for pickup. The ordering system is supported in the backend with NodeJS (Express Server and EJs templating) and POSTGRESQL for the database, and in the frontend with SASS pre-processor, HTML5 & JQuery. Realtime order updates are sent to both owner of the restaurant and the customer using the Twilio SMS API whenever an order is placed, confirmed and ready for pickup.
 
 ## Illustration
 
@@ -14,16 +14,7 @@ Below are some of the routes a user can visit.
 ## Planning
 
 !['Entity Relation Diagram'](https://raw.githubusercontent.com/aaron3993/midterm-project/master/documentation/Database%20ERD.png)
-Fig 1. Entity Relation Diagram
-
-!['RESTful routes'](https://raw.githubusercontent.com/aaron3993/midterm-project/master/documentation/RESTful%20Route%20Panning.png)
-Fig 2. RESTful routes planning
-
-!['Wireframe1'](https://raw.githubusercontent.com/aaron3993/midterm-project/master/documentation/wireframe1.png)
-Fig 3. Mockups & Wireframe 1
-
-!['Wireframe2'](https://raw.githubusercontent.com/aaron3993/midterm-project/master/documentation/wireframe2.png)
-Fig 4. Mockups & Wireframe 2
+Entity Relation Diagram
 
 ## User Stories
 
