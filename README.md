@@ -55,4 +55,4 @@ npm install
 npm start
 ```
 
-4. **To access admin page, login as aaron@LHL.com with password as 'password'**
+4. **To access admin page, login as 'aaron@LHL.com' with password as 'password'**
