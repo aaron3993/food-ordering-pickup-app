@@ -11,10 +11,9 @@ Below are some of the routes a user can visit.
 !['Completed Order Page'](https://github.com/aaron3993/Aa-So-Sa/blob/master/documentation/completed_order.png)
 !['Admin Page'](https://github.com/aaron3993/Aa-So-Sa/blob/master/documentation/admin.png)
 
-## Planning
+## Entity Relation Diagram
 
 !['Entity Relation Diagram'](https://raw.githubusercontent.com/aaron3993/midterm-project/master/documentation/Database%20ERD.png)
-Entity Relation Diagram
 
 ## User Stories
 
